@@ -2,7 +2,6 @@
 EXERCÍCIO 5: Faça um algoritmo que receba a altura e o peso de uma pessoa e, de acordo 
 com a tabela a seguir, mostre a classificação dessa pessoa.
 
-TABELA
 ALTURA             |                     PESO                  
                    |  Até 60 | Entre 60 e 90 * | Acima de 90  |
 Menores que 1,20   |     .  A|         .      D|      .     G |
