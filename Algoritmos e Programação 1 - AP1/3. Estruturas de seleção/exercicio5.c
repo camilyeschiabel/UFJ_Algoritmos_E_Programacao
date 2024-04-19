@@ -41,7 +41,8 @@ int main()
         
         case 2:
             printf("Você selecionou a operação 'Diferença do maior pelo menor'.\n");
-            
+
+            // TRATAMENTO PARA DESCOBRIR QUEM É O MAIOR NÚMERO OU SE ESTES SÃO IGUAIS
             if(N1!=N2){
                 
                 if(N1>N2){
@@ -66,6 +67,7 @@ int main()
         case 4:
             printf("Você selecionou a operação 'Divisão do primeiro pelo segundo'.\n");
             
+            // TRATAMENTO PARA O CASO DE DIVISÃO POR ZERO
             if(N2!=0){
                 resultado = N1/N2;
                 printf("O resultado da divisão entre os números digitados é de %.2f.\n", resultado);    
